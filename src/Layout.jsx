@@ -38,7 +38,7 @@ export default function Layout() {
         alt="شعار كرمل الشام" 
         className="w-20 h-20 rounded-full shadow-lg border-2 border-white"
       />
-      <h2 className="text-2xl font-bold">مطعم كرمل الشام</h2>
+      <h2 className="text-2xl font-bold">مطعم كرم الشام</h2>
       <p className="text-sm text-gray-200">أشهى الأكلات الشامية</p>
     </div>
 
