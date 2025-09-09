@@ -27,22 +27,25 @@ export default function Layout() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-red-800 text-white py-6">
+  {/* Footer */}
+<footer className="bg-red-800 text-white py-6">
   <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
-    {/* شعار أو اسم الموقع */}
+    {/* اسم الموقع */}
     <div className="mb-2 md:mb-0 font-bold text-lg">
-      موقعي
+      مطعم كرمل الشام
     </div>
 
-    {/* النص أو الحقوق */}
-    <div className="text-center md:text-left text-sm">
-      جميع الحقوق محفوظة © 2025
+    {/* معلومات التواصل */}
+    <div className="text-center md:text-left text-sm space-y-1">
+      <p>📍 العنوان: دمشق، شارع الثورة</p>
+      <p>📞 الهاتف: +963 987 654 321</p>
+      <p>🌐 الموقع: <a href="https://karmelsham.com" className="hover:text-yellow-400">karmelsham.com</a></p>
     </div>
 
-    {/* روابط إضافية (اختياري) */}
+    {/* يمكن إضافة روابط تواصل اجتماعي هنا */}
     <div className="flex gap-4 mt-2 md:mt-0">
-      <a href="#" className="hover:text-yellow-400 text-sm">سياسة الخصوصية</a>
-      <a href="#" className="hover:text-yellow-400 text-sm">الشروط والأحكام</a>
+      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 text-sm">فيسبوك</a>
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400 text-sm">إنستغرام</a>
     </div>
   </div>
 </footer>
