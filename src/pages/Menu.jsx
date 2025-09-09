@@ -45,7 +45,7 @@ export default function Menu() {
               <p className="text-gray-600 text-xs sm:text-sm">{item.desc}</p>
 
               <NavLink
-                to="./pages/Contact"
+                to="/contact"
                 className="mt-4 inline-block bg-red-700 hover:bg-red-800 
                            text-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-xl font-semibold 
                            text-sm sm:text-base shadow-md transition transform duration-300 
