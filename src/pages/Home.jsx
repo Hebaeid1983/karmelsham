@@ -40,11 +40,11 @@ return (
           </p>
           <div className="mt-4 flex flex-col sm:flex-row gap-3 w-full sm:max-w-md">
             <NavLink 
-                to="/Menu" className="bg-white/20 px-4 py-2 rounded text-white text-center font-semibold hover:bg-white/30 transition">
+                to="./pages/Menu" className="bg-white/20 px-4 py-2 rounded text-white text-center font-semibold hover:bg-white/30 transition">
               تصفح المنيو
             </NavLink>
             <NavLink 
-                to="/Contact" className="bg-white/20 px-4 py-2 rounded text-white text-center font-semibold hover:bg-white/30 transition">
+                to="./pages/Contact" className="bg-white/20 px-4 py-2 rounded text-white text-center font-semibold hover:bg-white/30 transition">
               احجز اتصال
             
             </NavLink>
