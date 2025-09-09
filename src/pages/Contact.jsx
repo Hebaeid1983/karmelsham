@@ -18,23 +18,33 @@ export default function Contact() {
         <form className="bg-white p-6 rounded-2xl shadow-md space-y-4">
           <div>
             <label className="block mb-1 font-semibold">الاسم</label>
-            <input type="text" placeholder="اسمك" className="w-full border border-gray-300 px-4 py-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary" />
+            <input
+              type="text"
+              placeholder="اسمك"
+              className="w-full border border-gray-300 px-4 py-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary"
+            />
           </div>
           <div>
             <label className="block mb-1 font-semibold">البريد الإلكتروني</label>
-            <input type="email" placeholder="email@example.com" className="w-full border border-gray-300 px-4 py-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary" />
+            <input
+              type="email"
+              placeholder="email@example.com"
+              className="w-full border border-gray-300 px-4 py-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary"
+            />
           </div>
           <div>
             <label className="block mb-1 font-semibold">الرسالة</label>
-            <textarea placeholder="اكتب رسالتك هنا" className="w-full border border-gray-300 px-4 py-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
+            <textarea
+              placeholder="اكتب رسالتك هنا"
+              className="w-full border border-gray-300 px-4 py-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary"
+            ></textarea>
           </div>
-          <button 
-  type="submit" 
-  className="bg-primary text-white hover:bg-primary/90 hover:text-white px-6 py-2 rounded-xl font-semibold shadow-md transition"
->
-  إرسال الرسالة
-</button>
-
+          <button
+            type="submit"
+            className="bg-primary text-white hover:bg-primary/90 px-6 py-2 rounded-xl font-semibold shadow-md transition"
+          >
+            إرسال الرسالة
+          </button>
         </form>
       </div>
     </div>

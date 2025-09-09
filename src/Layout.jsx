@@ -27,19 +27,26 @@ export default function Layout() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-red-900 text-white mt-8 py-6">
-        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="flex items-center gap-2">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStpfebf-wRinEsuK_OcHglI9kskPsPx2ZzKw&s" alt="شعار المطعم" className="w-10 h-10 rounded-full" />
-            <span className="font-bold">كرم الشام</span>
-          </div>
-          <p>© 2025 مطعم كرم الشام. جميع الحقوق محفوظة.</p>
-          <div className="flex gap-4">
-            <span>📍 القاهرة، مصر</span>
-            <span>📞 0123456789</span>
-          </div>
-        </div>
-      </footer>
+      <footer className="bg-red-800 text-white py-6">
+  <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
+    {/* شعار أو اسم الموقع */}
+    <div className="mb-2 md:mb-0 font-bold text-lg">
+      موقعي
+    </div>
+
+    {/* النص أو الحقوق */}
+    <div className="text-center md:text-left text-sm">
+      جميع الحقوق محفوظة © 2025
+    </div>
+
+    {/* روابط إضافية (اختياري) */}
+    <div className="flex gap-4 mt-2 md:mt-0">
+      <a href="#" className="hover:text-yellow-400 text-sm">سياسة الخصوصية</a>
+      <a href="#" className="hover:text-yellow-400 text-sm">الشروط والأحكام</a>
+    </div>
+  </div>
+</footer>
     </div>
   );
 }
+
