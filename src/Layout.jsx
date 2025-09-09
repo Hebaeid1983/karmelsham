@@ -44,9 +44,9 @@ export default function Layout() {
 
     {/* معلومات التواصل */}
     <div className="space-y-2 text-lg">
-      <p>📍 <span className="font-semibold">العنوان:</span> دمشق، شارع الثورة</p>
+      <p>📍 <span className="font-semibold">العنوان:</span> مصر القاهرة مدينة نصر</p>
       <p>📞 <span className="font-semibold">الهاتف:</span> 
-        <a href="tel:+963987654321" className="hover:text-yellow-400"> +963 987 654 321</a>
+        <a href="tel:+963987654321" className="hover:text-yellow-400"> +10 987 654 321</a>
       </p>
       <p>🌐 <span className="font-semibold">الموقع:</span> 
         <a href="https://karmelsham.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-400"> karmelsham.com</a>
@@ -61,8 +61,8 @@ export default function Layout() {
     <div className="rounded-xl overflow-hidden shadow-lg border-2 border-white">
       <iframe 
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.68461776035!2d36.305!3d33.513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDMwJzQ2LjgiTiAzNsKwMTgnMTguMCJF!5e0!3m2!1sar!2s!4v1690000000000" 
-        width="100%" 
-        height="200" 
+        width="90%" 
+        height="150" 
         style={{ border: 0 }} 
         allowFullScreen="" 
         loading="lazy" 
