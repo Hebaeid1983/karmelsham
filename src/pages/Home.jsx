@@ -39,15 +39,18 @@ return (
             شاورما طازجة، مشويات على الفحم، وصواني تليق بمائدتكم.
           </p>
           <div className="mt-4 flex flex-col sm:flex-row gap-3 w-full sm:max-w-md">
-            <NavLink 
-                to="./pages/Menu" className="bg-white/20 px-4 py-2 rounded text-white text-center font-semibold hover:bg-white/30 transition">
-              تصفح المنيو
-            </NavLink>
-            <NavLink 
-                to="./pages/Contact" className="bg-white/20 px-4 py-2 rounded text-white text-center font-semibold hover:bg-white/30 transition">
-              احجز اتصال
-            
-            </NavLink>
+<NavLink 
+    to="/menu" 
+    className="bg-white/20 px-4 py-2 rounded text-white text-center font-semibold hover:bg-white/30 transition">
+  تصفح المنيو
+</NavLink>
+
+<NavLink 
+    to="/contact" 
+    className="bg-white/20 px-4 py-2 rounded text-white text-center font-semibold hover:bg-white/30 transition">
+  احجز اتصال
+</NavLink>
+
        
           </div>
         </div>
