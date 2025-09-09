@@ -28,9 +28,13 @@ export default function Contact() {
             <label className="block mb-1 font-semibold">الرسالة</label>
             <textarea placeholder="اكتب رسالتك هنا" className="w-full border border-gray-300 px-4 py-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
           </div>
-          <button type="submit" className="bg-primary hover-bg-primary text-primary px-6 py-2 rounded-xl font-semibold shadow-md transition">
-            إرسال الرسالة
-          </button>
+          <button 
+  type="submit" 
+  className="bg-primary text-white hover:bg-primary/90 hover:text-white px-6 py-2 rounded-xl font-semibold shadow-md transition"
+>
+  إرسال الرسالة
+</button>
+
         </form>
       </div>
     </div>

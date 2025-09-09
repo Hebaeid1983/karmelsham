@@ -28,13 +28,13 @@
   "main": "postcss.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hebaeid1983/Heba-eid-Atia-karam-elsham.git"
+    "url": "git+https://github.com/Hebaeid1983/karmelsham.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Hebaeid1983/Heba-eid-Atia-karam-elsham/issues"
+    "url": "https://github.com/Hebaeid1983/karmelsham/issues"
   },
-  "homepage": "https://Hebaeid1983.github.io/Heba-eid-Atia-karam-elsham"
+  "homepage": "https://hebaeid1983.github.io/karmelsham/"
 }
