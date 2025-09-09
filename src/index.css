@@ -41,7 +41,7 @@ button:hover, .btn:hover {
 /* الأزرار المميزة (خاصة بالعروض) */
 .btn-red {
   background: var(--red);
-  color: #fff;
+  color: White;
 }
 .btn-red:hover {
   background: #7A1018;
@@ -77,3 +77,4 @@ h3 {
   color: var(--brown);
   font-weight: 600;
 }
+
