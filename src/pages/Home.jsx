@@ -44,7 +44,7 @@ return (
               تصفح المنيو
             </NavLink>
             <NavLink 
-                to="/contact" className="bg-white/20 px-4 py-2 rounded text-white text-center font-semibold hover:bg-white/30 transition">
+                to="/Contact" className="bg-white/20 px-4 py-2 rounded text-white text-center font-semibold hover:bg-white/30 transition">
               احجز اتصال
             
             </NavLink>
@@ -80,7 +80,7 @@ return (
             <span className="font-bold text-gray-900"> 135 </span> جنيه فقط.
           </p>
           <NavLink
-            to="/menu"
+            to="/Menu"
             className="inline-flex items-center justify-center rounded-xl bg-primary hover:bg-primary/90 px-6 py-3 sm:px-8 sm:py-4 text-white font-semibold shadow-lg transition mt-4 sm:mt-6"
           >
             اطّلع على باقي العروض
